@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+    </head>
+    <style>
+        h1 {font-family: "courier", monospace; text-align: center;}
+       
+        h3 {font: italic 20px sans-serif;}
+        
+        ul {font-family:"helvetica", sans-serif;
+            font-weight: bold; 
+            line-height:1.5em;
+        }
+        
+        h2 {font-family:"helvetica", sans-serif;}
+        
+        p {font-family: monospace;}
+        
+    </style>
+    <body>
+    
+        <a name="entry1"></a>
+        <a name="entry2"></a>
+        <a name="entry3"></a>
+        <a name="entry4"></a>
+        
+        <h1>2019 Computer Programming</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#entry1">Khan Tutorials</a></li>
+            <li><a href="#entry2">GitHub</a></li>
+            <li><a href="#entry3">Epicodus Workshop</a></li>
+            <li><a href="#entry4">Terminal</a></li>
+        </ul>
+        
+        <h2 id="entry1">Khan Tutorials</h2>
+        <p>Intro material on Javascript, HTML, and CSS.</p>
+        <h6>1/19-3/19</h6>
+        
+        <h2 id="entry2">GitHub</h2>
+        <p>Account set up and repository upload<p>
+        <h6>2/19</h6>
+        
+        <h2 id="entry3">Epicodus Workshop</h2>
+        <p>Pair programming with HTML, CSS, Javascript, and jQuery<p>
+        <h6>3/19</h6>
+        
+        <h2 id="entry4">Terminal</h2>
+        <p>Learning basic command line operation</p>
+        <h6>3/19</h6>
+        
+    </body>
+</html>
